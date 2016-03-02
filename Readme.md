@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Андрей Стручков](https://up.htmlacademy.ru/adaptive/6/user/24174).
-* Наставник: `Неизвестно`.
+* Наставник: `Кексобот`.
 
 ---
 
