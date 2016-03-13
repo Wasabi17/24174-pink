@@ -1,12 +1,167 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк главная</title>
+</head>
 
-  </body>
+<body>
+  <header class="page-header">
+    <nav class="main-nav">
+      <div class="main-nav__header main-nav__header--closed">
+        <a href="" class="main-nav__home-link">pink</a>
+        <span class="main-nav__toogle main-nav__toogle--closed">Открыть меню</span>
+      </div>
+      <div class="main-nav__wrapper main-nav__wrapper--closed">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a href="">Информация</a></li>
+          <li class="main-nav__item"><a href="">Возможности</a></li>
+          <li class="main-nav__item"><a href="">Отзывы</a></li>
+          <li class="main-nav__item"><a href="">Стоимость</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="page-header__intro">
+      <div class="page-header__motto">
+        <h1>Взгляните на жизнь иначе!</h1>
+      </div>
+      <div class="page-header__img">
+        <img src="" alt="">
+      </div>
+    </div>
+  </header>
+  <section class="app-download">
+    <div class="app-download__wrapper">
+      <a class="btn btn--white">Скачать приложение</a>
+      <div class="app-download-links">
+        <a href="" class="app-download-link app-download-link--apple">App Store</a>
+        <a href="" class="app-download-link app-download-link--android">Android Market</a>
+        <a href="" class="app-download-link app-download-link--microsoft">Windows Market</a>
+      </div>
+      <div clas="app-download__info">Доступно для IPhone, IPad, Android, Windows Phone, OS X, Windows 10</div>
+    </div>
+  </section>
+  <section class="features">
+    <div class="features__wrapper">
+      <header class="features__header">
+        <p>Устали от серости мегаполиса?</p>
+        <p>Нам есть, что вам предложить!</p>
+      </header>
+      <div class="features__list">
+        <div class="features__item">
+          <h2>Поднимает настроение</h2>
+          <p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        </div>
+        <div class="features__item">
+          <h2>Меняет мир вокруг</h2>
+          <p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+        </div>
+        <div class="features__item">
+          <h2>Заводит новых друзей</h2>
+          <p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        </div>
+        <div class="features__img">
+          <img src="" alt="Всем привет!">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="reviews">
+    <div class="reviews__wrapper">
+      <div class="reviews__list">
+        <input class="reviews__switcher" type="radio" name="reviews" id="reviews-radio-1">
+        <input class="reviews__switcher" type="radio" name="reviews" id="reviews-radio-2">
+        <input class="reviews__switcher" type="radio" name="reviews" id="reviews-radio-3">
+        <blockquote class="reviews__item reviews__item--active">
+          <cite class="reviews__author">Николай Петров</cite>
+          <p>Это приложение перевернуло мой мир и позволило по-новому взгянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотогорафии</p>
+        </blockquote>
+        <blockquote class="reviews__item">
+          <cite class="reviews__author">Николай Петров</cite>
+          <p>Это приложение перевернуло мой мир и позволило по-новому взгянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотогорафии</p>
+        </blockquote>
+        <blockquote class="reviews__item">
+          <cite class="reviews__author">Николай Петров</cite>
+          <p>Это приложение перевернуло мой мир и позволило по-новому взгянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотогорафии</p>
+        </blockquote>
+        <div class="slider-nav">
+          <label class="slider-nav__btn slider-nav__btn--active" for="reviews-radio-1"></label>
+          <label class="slider-nav__btn" for="reviews-radio-2"></label>
+          <label class="slider-nav__btn" for="reviews-radio-3"></label>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="prices">
+    <div class="prices__wrapper">
+      <div class="prices__list">
+        <input class="prices__switcher" type="radio" name="prices" id="prices-radio-1">
+        <input class="prices__switcher" type="radio" name="prices" id="prices-radio-2">
+        <input class="prices__switcher" type="radio" name="prices" id="prices-radio-3">
+        <div class="prices__item">
+          <div class="prices__header">
+            <h3>База</h3>
+            <div class="prices__cost">1,99 USD</div>
+          </div>
+          <div class="prices__feature">Розовый фильтр<span class="prices__checkmark prices__checkmark--yes">Да</span></div>
+          <div class="prices__feature">Смайлики<span class="prices__checkmark prices__checkmark--no">Нет</span></div>
+          <div class="prices__feature">Комментарии<span class="prices__checkmark prices__checkmark--no">Нет</span></div>
+        </div>
+        <div class="prices__item prices__item--active">
+          <div class="prices__header">
+            <span class="prices__flag prices__flag--hit">Хит</span>
+            <h3>Стандарт</h3>
+            <div class="prices__cost">3,99 USD</div>
+          </div>
+          <div class="prices__feature">Розовый фильтр<span class="prices__checkmark prices__checkmark--yes">Да</span></div>
+          <div class="prices__feature">Смайлики<span class="prices__checkmark prices__checkmark--yes">Да</span></div>
+          <div class="prices__feature">Комментарии<span class="prices__checkmark prices__checkmark--no">Нет</span></div>
+        </div>
+        <div class="prices__item">
+          <div class="prices__header">
+            <span class="prices__flag prices__flag--hit">Хит</span>
+            <h3>Анлим</h3>
+            <div class="prices__cost">9,99 USD</div>
+          </div>
+          <div class="prices__feature">Розовый фильтр<span class="prices__checkmark prices__checkmark--yes">Да</span></div>
+          <div class="prices__feature">Смайлики<span class="prices__checkmark prices__checkmark--yes">Да</span></div>
+          <div class="prices__feature">Комментарии<span class="prices__checkmark prices__checkmark--yes">Да</span></div>
+        </div>
+        <div class="slider-nav">
+          <label class="slider-nav__btn" for="prices-radio-1"></label>
+          <label class="slider-nav__btn slider-nav__btn--active" for="prices-radio-2"></label>
+          <label class="slider-nav__btn" for="prices-radio-3"></label>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="index-footer">
+    <div class="index-footer__wrapper">
+      <div class="index-footer__contaсts">
+        <div class="index-footer__header">
+          <p>Остались вопросы?</p>
+          <p>Свяжитесь с нами!</p>
+        </div>
+        <div class="index-footer__contact">
+          <h4>Звоните:</h4>
+          <a href="tel:+78125556666" class="index-footer__link">+7 (812) 555-66-66</a>
+        </div>
+        <div class="index-footer__contact">
+          <h4>Пишите:</h4>
+          <a href="mailto:mail@htmlacademy.ru" class="index-footer__link">mail@htmlacademy.ru</a>
+        </div>
+        <div class="index-footer__contact">
+          <h4>Приезжайте в гости:</h4>
+          <a href="" class="index-footer__link">ул. Большая Конюшенная, 19/8</a>
+        </div>
+      </div>
+      <div class="index-footer__map">
+        <img src="" alt="">
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
